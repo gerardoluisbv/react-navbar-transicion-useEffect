@@ -1,0 +1,51 @@
+nav {
+    background-color: #000;
+    display: flex;
+    align-content:  space-between;
+    padding-top: 3px;
+    
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .links-nav {
+    height: auto;
+    position: relative;
+    transition: background-color 0.8s ease 0s;
+    border-radius: 50px;
+    align-self: flex-start;
+    background: rgb(234, 227, 227);
+    color: rgb(16, 4, 35);
+    width: auto;
+    padding: 6px 16px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 800;
+  } 
+  
+
+  nav a {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin: 0.5em 0.5em;
+    text-decoration: none;
+  }
+  
+  .scrolling-box {
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+   
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
